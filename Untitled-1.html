@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angel Manuel Solis Estudillo 253454</title>
+    <style>
+        body {
+            background-color: blue(73, 21, 193); /* Fondo rojo */
+            color: rgb(29, 9, 143); /* Texto blanco para contraste */
+            font-family: Arial, sans-serif;
+            display: flex; /* Usamos flexbox para centrar contenido */
+            flex-direction: column; /* Apila los elementos verticalmente */
+            justify-content: center; /* Centra verticalmente */
+            align-items: center; /* Centra horizontalmente */
+            min-height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+            margin: 0; /* Elimina márgenes predeterminados del body */
+        }
+
+        /* Define la animación de rotación */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Aplica la animación al texto del nombre */
+        .rotating-text {
+            display: inline-block; /* Permite que el elemento rote */
+            animation: rotate 5s linear infinite; /* Animación de rotación */
+            font-size: 3em; /* Tamaño de fuente más grande para el nombre */
+            margin-bottom: 30px; /* Espacio entre el nombre y la imagen */
+            white-space: nowrap; /* Evita que el nombre se rompa en varias líneas */
+        }
+
+        /* Estilo para la imagen */
+        .my-image {
+            width: 250px; /* Tamaño de la imagen, puedes ajustarlo */
+            height: auto;
+            border: 5px solid white; /* Borde blanco alrededor de la imagen */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="rotating-text">SOLIS ESTUDILLO ANGEL MANUEL 253454</h1>
+    
+    
+    
+</body>
+</html>
+
